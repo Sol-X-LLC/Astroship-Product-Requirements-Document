@@ -17,17 +17,17 @@ The final end card holds 9 seconds over music, no voiceover.
 
 [0:00–0:06] HOOK — Hero gameplay montage, music swells:
 
-"Hello World. Astroship was built for the iPhone Duo, it is a local and online multiplayer grid-based battle game for friends, family, and enemies." 
+"Hello World. Astroship was built for the iPhone Duo, it is a turn based local and online multiplayer three dimensional grid-based battle game for friends, family, and enemies." 
 <br><br>
 
 [0:06–0:41] THE GAME — Gameplay montage: placing fleets, calling shots, showing hits, deploying RADAR:
 
-"You place your fleet on the space, sand, and fire themed grid, call your shots with your finger or Apple Pencil (USB-C), and destroy your opponent before they find you. Sharpen your aim in solo play — then take it online anywhere on or above Earth with a 0.5 Mbps of faster Wi-Fi, cellular or Starlink connection. Every solo victory lets you invite your friends to play the game and bragging rights when you are #1 on the online leaderboard. The $4 Astroship Pro Kickstarter reward unlocks multiplayer and every level FOREVER after the Apple TestFlight beta is over in February, so you can challenge anyone, anywhere through Apple Game Center."
+"You place your fleet on a 2D (or 3D using the Duo hinge) outer space, sand, or fire themed grid, call your shots with your finger or Apple Pencil (USB-C), and scan your opponent before they find you. Only after you have scanned your opponent's entire fleet do you decide if peace or war is the final outcome. Sharpen your aim in solo play — then take it online anywhere on or above Earth with a 0.5 Mbps of faster Wi-Fi, cellular or Starlink connection using Apple Game Center. Every solo victory lets you invite your friends to play the game and bragging rights when you are #1 on the online leaderboard. The $4 Astroship Pro Kickstarter reward unlocks multiplayer and every level FOREVER after the 100% free Apple TestFlight beta is over in February."
 <br><br>
 
 [0:41–1:11] WHY IT'S DIFFERENT — Theme unlocks, accessibility settings, device lineup":
 
-"Astroship is a fresh new battle puzzle game, that locks new themes as you climb, from deep-space charts to desert battlegrounds. Colorblind-friendly from day one. Levels with radar punishments keeps every match on a knife's edge. Our game is coming to iPhone and Apple TV {A Kickstart stretch goal}, but was optimized for the iPhone Duo: one screen for your fleet, one for the hunt. And one rule that we will never break: no ads. Ever. Not on the grid, not anywhere."
+"Astroship is a fresh new battle  game, that unlocks new themes as you climb, from deep-space charts to desert battlegrounds to lava moons. Blind, Deaf, and Colorblind-friendly from day one. Levels with radar punishments keeps every match on a knife's edge. Our game is coming to iPhone hopefully Apple TV as a Kickstart stretch goal}, but was optimized for the iPhone Duo: one screen for your fleet, one for the hunt. And one rule that we will never break: no ads. Ever. Not on the grid, not anywhere."
 <br><br>
 
 [1:11–1:36] WHY KICKSTARTER — Roadmap graphic, beta footage:
