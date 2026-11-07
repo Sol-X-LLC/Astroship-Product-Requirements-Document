@@ -17,7 +17,7 @@ The final end card holds 9 seconds over music, no voiceover.
 
 [0:00–0:06] HOOK — Hero gameplay montage, music swells:
 
-"Hello World. Astroship was built for the iPhone Duo, it is a multiplayer grid-based battle & puzzle game for friends, family, and enemies." 
+"Hello World. Astroship was built for the iPhone Duo, it is a local and online multiplayer grid-based battle game for friends, family, and enemies." 
 <br><br>
 
 [0:06–0:41] THE GAME — Gameplay montage: placing fleets, calling shots, showing hits, deploying RADAR:
@@ -27,18 +27,18 @@ The final end card holds 9 seconds over music, no voiceover.
 
 [0:41–1:11] WHY IT'S DIFFERENT — Theme unlocks, accessibility settings, device lineup":
 
-"Astroship is a fresh new battle puzzle game, that locks new themes as you climb, from deep-space charts to desert battlegrounds. Colorblind-friendly from day one. Timer levels with radar punishments keeps every match on a knife's edge. Our game is coming to iPhone and Apple TV {A Kickstart stretch goal}, but was optimized for the iPhone Duo: one screen for your fleet, one for the hunt. And one rule that we will never break: no ads. Ever. Not on the grid, not anywhere."
+"Astroship is a fresh new battle puzzle game, that locks new themes as you climb, from deep-space charts to desert battlegrounds. Colorblind-friendly from day one. Levels with radar punishments keeps every match on a knife's edge. Our game is coming to iPhone and Apple TV {A Kickstart stretch goal}, but was optimized for the iPhone Duo: one screen for your fleet, one for the hunt. And one rule that we will never break: no ads. Ever. Not on the grid, not anywhere."
 <br><br>
 
 [1:11–1:36] WHY KICKSTARTER — Roadmap graphic, beta footage:
 
-"The TestFlight beta is live today just visit www.astroship.store/beta, and we launch on the official app to the Apple App Store March 5, 2027 approximently three weeks after the end of the Kickstarter. We're raising $42,069 to get there as quick as possible with more themes, more levels, and the polish a tiny independent team can only buy with your help. At official launch the game itself will be free. Four dollars unlocks Astroship Pro, forever with a two week trial period to see if you like it. However starting in Jan 2028 (12 months from today), we may switch to a $8 per year subscription so we can keep updating the game and pay Cliffton. Your feedback on this topic via a survey we send out on day 15 of the campaign will have a huge impact on the future of the game!"
+"The TestFlight beta is live today just visit www.astroship.store/beta, and we launch on the official app to the Apple App Store April 2027 approximently 8 weeks after the end of the Kickstarter. We're raising $42,069 to get there as quick as possible with more themes, more levels, and the polish a tiny independent team can only buy with your help. At official launch the game itself will be free. Four dollars unlocks Astroship Pro, forever with a two week trial period to see if you like it. However starting in Jan 2028 (12 months from today), we may switch to a $8 per year subscription so we can keep updating the game. Your feedback on this topic via a survey we send out on day 15 of the campaign will have a huge impact on the future of the game!"
 <br><br>
 
 [1:36–1:51] THE ASK — Reward tiers on screen, end card with campaign URL:
 
 "Back the campaign and you're in at the ground floor: Astroship Pro with an "exclusive backer offer code" giving you every future theme, and your name in the credits. Help us finish the fleet — please back Astroship today."
-{$1 for Astroship Pro now, $4.69 per iPhone after the Kickstarter, $8/year after Jan 2028. Back today or pay five times more later}
+{$4 for Astroship Pro now, $4.69 per iPhone after the Kickstarter, $8/year after Jan 2028. Back today or pay five times more later}
 <br><br>
 
 [1:51–2:00] END CARD - QR Code and www.astroship.store/kickstarter link to share on social media:
