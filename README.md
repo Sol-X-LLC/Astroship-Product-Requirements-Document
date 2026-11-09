@@ -30,9 +30,9 @@ An iPhone Duo multiplayer grid-based battle game for friends, family, and enemie
 Table 0 – Document version history <br>
 |Version |Date       |Author(s)     |Notes                                                                              |
 |--------|-----------|--------------|-----------------------------------------------------------------------------------|
-| A	     | 2026-10-13|Blaze Sanders |Initial document with skeleton based on Table of Contents                          |
-| B      | 2026-10-30|Blaze Sanders |First public open source version with new Sol-X assets and Swift code              |
-| C      | 2026-11-08|Blaze Sanders |Added SOFT-006–SOFT-025 (AI requirements) on the AI-Requirements branch            |
+|A	     |2026-10-13 |Blaze Sanders |Initial document with skeleton based on Table of Contents                          |
+|B       |2026-10-30 |Blaze Sanders |First public open source version with new Sol-X assets and Swift code              |
+|C       |2026-11-08 |Meta Muse     |Added SOFT-006 to SOFT-025 on AI-Requirements branch merged to main by Blaze S     |
 
 <br><br>  
 
@@ -73,7 +73,7 @@ In expressing requirements, the following terminology will be used:
 Source code for all Apple OS can be found at https://github.com/Sol-X-LLC/Astroship-Apple-Apps 
 Any source code in this repo is only for small scale testing and as example documentation.
 
-Kickstarter Price: $4.00 per iPhone with local multiplayer
+Kickstarter Price: $4.00 per iPhone with local multiplayer (no online feature)
 Release Price: $0 with $4.69 upgrade to Astroship Pro for online multiplayer via a two week trial
 Jan 2028 Price: $8 per year 
 
@@ -105,35 +105,35 @@ TODO
 Functional requirements define observable and measurable behavior expected from the Engineering Development Rack. Every functional requirement should be objectively testable and include a method of validation, acceptance criteria, and traceability to supporting test documentation when applicable. Whenever possible, requirements shall be written to support automated verification and long-term regression testing.
 
 ### 3.1	Electrical Requirements (ELEC-###)
-ELEC-001[Power]{TODO}: An Engineering Development Rack shall operating using two or less 480VAC NEMA?-? connectors at less than 20,000 Watts (W).
+ELEC-001[Power]{Blaze S}: Astroship shall draw less than TODO Watts (W) during solo off line play and less than TODO*2 Watts (W) during local or online multiplayer play.
 
 ### 3.2	Mechanical Requirements (MECH-###)
-MECH-001[Performance]{Blaze S}: Astroship v2026.0 (or higher) shall run on any iPhone Duo Apple TV, MacOS 27 or higher or iPhone 17 or higher purchased after October TODO.
+MECH-001[Performance]{Blaze S}: Astroship v2026.0 (or higher) shall be optimized run on any iPhone Duo, any 4K Apple TV, any Mac running MacOS 27 (or higher) or any iPhone (6.3 inches or larger).
 
-MECH-004[UX]{Blaze S}: Astroship v2026.1 (or higher) may support [Apple Pencil (USB-C)](https://www.apple.com/xc/product/MUWA3AM/A).
+MECH-002[UX]{Blaze S}: Astroship v2026.1 (or higher) may support [Apple Pencil (USB-C)](https://www.apple.com/xc/product/MUWA3AM/A).
 
-MECH-005[Color]{Blaze S}: Sol-X LLC shall sell a custom vinyl wrapper for the [Apple Pencil (USB-C)](https://www.apple.com/xc/product/MUWA3AM/A) at www.astroship.store starting Dec 2026 from [Decal Girl website](https://www.decalgirl.com/products/custom-apple-pencil-skin?variant=51649275953523&country=US&currency=USD&gad_campaignid=23527328328&gbraid=0AAAAAD_rqzbW1dad77YBtB_bFoUCcg4tq)
+MECH-003[Color]{Blaze S}: Sol-X LLC shall sell a custom vinyl wrapper for the [Apple Pencil (USB-C)](https://www.apple.com/xc/product/MUWA3AM/A) at www.astroship.store starting Dec 2026 from [Decal Girl website](https://www.decalgirl.com/products/custom-apple-pencil-skin?variant=51649275953523&country=US&currency=USD&gad_campaignid=23527328328&gbraid=0AAAAAD_rqzbW1dad77YBtB_bFoUCcg4tq)
 <br><br>
 
 
 ### 3.3	Software Requirements (SOFT-###)
-SOFT-001[Process]{Blaze S}: All Astroship Swift code shall be open source and accept pull requests until at least v2027.0 as developer social outreach tool.
+SOFT-001[Process]{Blaze S}: All Astroship Swift code shall be open source forever and accept pull requests until at least v2027.0 as developer social outreach tool.
 
 SOFT-002[UX]{TODO}: Astroship v2026.0 shall have a single player local game mode with a very basic AI opponent.
 
-SOFT-003[UX]{Blaze S}: Astroship v2026.1 shall allow two humans play against each other anywhere on or above Earth using 0.5 Mbps or faster WiFi or cellular connection.
+SOFT-003[UX]{Blaze S}: Astroship v2026.1 shall allow two humans play against each other anywhere on or above Earth using a 0.5 Mbps or faster WiFi or cellular connection.
 
-SOFT-004[UX]{Blaze S}: Astroship v2026.2 (or higher) shall have a single player local game mode that uses a on device Apple Foundation model and also a two human mode.
+SOFT-004[UX]{Blaze S}: Astroship v2026.2 (or higher) shall have a single player local game mode that uses an on device Apple Foundation model.
 
 SOFT-005[Logs]{Blaze S}: Software tools utilized should preserve historical test data with added user comments to maintain sufficient audit information to allow engineering investigation of failures occurring during qualification activities.
 
 SOFT-006[API]{Blaze S}: Astroship v2026.0 shall implement the AI opponent as a `GameAI` protocol with `nextShot(on: GameState, rng:) -> GridPoint`, so each AI strategy is interchangeable and independently testable.
 
-SOFT-007[UX]{Blaze S}: Astroship v2026.0 shall use CrissCrossAI as the default solo opponent. CrissCrossAI shall hunt with a search pattern and, on a hit, target adjacent unshot cells until the ship is sunk, then resume hunting.
+SOFT-007[UX]{Blaze S}: Astroship v2026.0 shall use CrissCrossAI as the default solo opponent. CrissCrossAI shall hunt with a [checkerboard search pattern](https://youtu.be/26P1KyvrmjI?si=w-XaKHwjMoptaFk9&t=745) and, on a hit, target adjacent unshot cells until the ship is sunk, then resume hunting. 
 
-SOFT-008[UX]{Blaze S}: Astroship v2026.0 shall include DumbScanAI as the simplest AI strategy, choosing shots by a random or checkerboard pattern with no targeting memory, for the SOFT-002 basic AI opponent and for debugging.
+SOFT-008[UX]{Blaze S}: Astroship v2026.0 shall include DumbScanAI as the simplest AI strategy, choosing shots at random with no targeting memory, for debugging and to fulfill SOFT-002.
 
-SOFT-009[UX]{Blaze S}: Astroship v2026.0 shall expose a single AI difficulty `skillLevel` from 0 to 10, default 5, with 0 reserved for debugging and 1 the minimum shown to the player. The solo setup shall display the chosen strategy name and skill level before the match starts.
+SOFT-009[UX]{Blaze S}: Astroship v2026.0 shall expose a single AI difficulty `skillLevel` slider from 0 to 10 to player, default 5, with 0 reserved for debugging and 1 the minimum shown to the player. The solo setup shall display the chosen strategy name and skill level before the match starts.
 
 SOFT-010[Testing]{Blaze S}: Astroship v2026.0 AI decisions shall be deterministic given a seeded random number generator: the same game state and seed shall always produce the same AI shot, so solo matches are reproducible in tests.
 
@@ -143,17 +143,15 @@ SOFT-012[Security]{Blaze S}: Astroship v2026.0 AI shall never use hidden informa
 
 SOFT-013[UX]{Blaze S}: Astroship v2026.0 AI shall place all 7 ships before the battle starts, each with exact cells matching its length (2–5) in an I, X, T, or Y footprint, inside the 14x10x4 board with no overlapping cells.
 
-SOFT-014[API]{Blaze S}: Astroship v2026.0 AI shall read all board bounds from `GRID_CONSTANTS` (WIDTH 14, HEIGHT 10, DEPTH 4), never hardcoded sizes, and every AI shot shall be inside the 14x10x4 board.
-
 SOFT-015[Performance]{Blaze S}: Astroship v2026.0 AI shall fire exactly once per turn and only when it is its turn, and AI shot selection shall run off the main thread so the board stays responsive while the AI thinks.
 
 SOFT-016[OS]{Blaze S}: Astroship v2026.2 (or higher) shall implement the on-device Apple Foundation Model AI as a `LocalFoundationModelAI` conforming to the same `GameAI` protocol, as a drop-in replacement for CrissCrossAI with no server dependency.
 
-SOFT-017[OS]{Blaze S}: Astroship v2026.x shall not use a server-side foundation model AI; a server AI shall only be considered with SYSA-005 in v2028.0 or later. All v2026.x AI shall run on-device.
+SOFT-017[OS]{Blaze S}: Astroship v2026.x shall not use a server-side model AI; a server-seide AI shall only be considered with SYSA-005 in v2028.0 or later.
 
-SOFT-018[UX]{Blaze S}: Astroship v2026.0 AI personalities (AiCarey, AiBlaze) shall be difficulty presets (skillLevel values), not separate AI types.
+SOFT-018[UX]{Blaze S}: Astroship v2027.0 (or lower) AI personalities (AiCarey, AiBlaze) shall be trained on Blaze & Carey human game play saves in a SQLite file.
 
-SOFT-019[UX]{Blaze S}: Astroship v2026.0 shall unlock friend invites on solo victories: each solo victory against the AI shall let the player invite friends to play.
+SOFT-019[UX]{Blaze S}: Astroship v2026.0 shall unlock friend invites on solo victories.
 
 SOFT-020[Testing]{Blaze S}: Astroship v2026.0 AI shall be covered by XCTest under SYSA-001: determinism with a seeded RNG, shot legality (in bounds, unshot, on turn) for DumbScanAI and CrissCrossAI, and completion of full solo games (win and loss).
 
@@ -161,7 +159,7 @@ SOFT-021[Logs]{Blaze S}: Astroship v2026.0 solo match results shall be recorded 
 
 SOFT-022[UX]{Blaze S}: Astroship v2026.1 AI turns shall use the same accessibility encoding as human turns under INTE-001: every AI shot and its result shall be shown by shape and VoiceOver label, never colour alone, with visual-only alerts and no audio-only cues.
 
-SOFT-023[UX]{Blaze S}: Astroship may support a 2D-only game mode for standard iPhones, in which the AI shall play on the 14x10 board with depth fixed at 0.
+SOFT-023[UX]{Blaze S}: Astroship may support a 2D-only game mode for standard iPhones (not iPhone Duo's), in which the AI shall play on the 14x10 board with depth fixed at 0.
 
 SOFT-024[UX]{Blaze S}: Astroship v2026.x AI shall not use the radar move until its semantics are defined (Phase 2 decision), and shall not fire at radar- or empty-revealed cells, which `GameState` rejects as already fired.
 
