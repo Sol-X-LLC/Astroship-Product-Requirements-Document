@@ -7,21 +7,21 @@ An iPhone Duo multiplayer grid-based battle game for friends, family, and enemie
 
 ## Product Requirement Document Table of Contents:
 ### 1	[Document Purpose](#sec-1-document-purpose)
-### 1.1	Requirement Identifiers [TODO](#sec-1-1-requirement-identifiers)
-### 2	Introduction	[TODO](#sec-2-introduction)
-### 2.1	Hardware Block Diagram 	[TODO](#sec-2-1-hardware-block-diagram)
-### 2.2	Principle Functionality Explained   [TODO](#sec-2-2-principle-functionality)
-### 3	Functional Requirements [TODO](#sec-3-functional-requirements)
-### 3.1	Electrical Requirements (ELEC-###)	[TODO](#sec-3-1-electrical)
-### 3.2	Mechanical Requirements (MECH-###)	[TODO](#sec-3-2-mechanical)
-### 3.3	Software Requirements (SOFT-###)	[TODO](#sec-3-3-software)
-### 3.4	Interface Requirements (INTE-###)	[TODO](#sec-3-4-interface)
-### 4	Non-Functional Requirements	[TODO](#sec-4-non-functional)
-### 4.1	System Attributes Requirements (SYSA-###)	[TODO](#sec-4-1-system-attributes)
-### 4.2	Project Management Requirements (PROJ-###)	[TODO](#sec-4-2-project-management)
-### 4.3	Regulatory / Approbation Requirements (REGU-###)	[TODO](#sec-4-3-regulatory)
-### 4.4	Certifications Requirements (CERT-###)	[TODO](#sec-4-4-certifications)
-### 5	Reference & Support Documents	[TODO](#sec-5-reference-documents)
+### 1.1	[Requirement Identifiers](#sec-1-1-requirement-identifiers)
+### 2	[Introduction](#sec-2-introduction)
+### 2.1	[Hardware Block Diagram](#sec-2-1-hardware-block-diagram)
+### 2.2	[Principle Functionality Explained](#sec-2-2-principle-functionality)
+### 3	[Functional Requirements](#sec-3-functional-requirements)
+### 3.1	[Electrical Requirements (ELEC-###)](#sec-3-1-electrical)
+### 3.2	[Mechanical Requirements (MECH-###)](#sec-3-2-mechanical)
+### 3.3	[Software Requirements (SOFT-###)](#sec-3-3-software)
+### 3.4	[Interface Requirements (INTE-###)](#sec-3-4-interface)
+### 4	[Non-Functional Requirements](#sec-4-non-functional)
+### 4.1	[System Attributes Requirements (SYSA-###)](#sec-4-1-system-attributes)
+### 4.2	[Project Management Requirements (PROJ-###)](#sec-4-2-project-management)
+### 4.3	[Regulatory / Approbation Requirements (REGU-###)](#sec-4-3-regulatory)
+### 4.4	[Certifications Requirements (CERT-###)](#sec-4-4-certifications)
+### 5	[Reference & Support Documents](#sec-5-reference-documents)
 <br><br>
 
 
@@ -33,7 +33,7 @@ Table 0 – Document version history <br>
 |A	     |2026-10-13 |Blaze Sanders |Initial document with skeleton based on Table of Contents                          |
 |B       |2026-10-30 |Blaze Sanders |First public open source version with new Sol-X assets and Swift code              |
 |C       |2026-11-08 |Meta Muse     |Added SOFT-006 to SOFT-025 on AI-Requirements branch merged to main by Blaze S     |
-|D       |2026-11-09 |Blaze Sanders |Linked the Table of Contents TODO markers to their sections with anchor links on the Table-Of-Contents branch |
+|D       |2026-11-09 |Blaze Sanders |Linked the Table of Contents entries to their sections with anchor links on the Table-Of-Contents branch |
 
 <br><br>  
 
