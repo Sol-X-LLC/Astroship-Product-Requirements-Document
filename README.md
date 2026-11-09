@@ -6,7 +6,7 @@ An iPhone Duo multiplayer grid-based battle game for friends, family, and enemie
 <img width="1024" height="1024" alt="astroship-app-icon" src="https://github.com/user-attachments/assets/b84363ac-5d18-49e3-89e1-95950c1d05e9" />
 
 ## Product Requirement Document Table of Contents:
-### 1	Document Purpose  [TODO](#sec-1-document-purpose)
+### 1	[Document Purpose](#sec-1-document-purpose)
 ### 1.1	Requirement Identifiers [TODO](#sec-1-1-requirement-identifiers)
 ### 2	Introduction	[TODO](#sec-2-introduction)
 ### 2.1	Hardware Block Diagram 	[TODO](#sec-2-1-hardware-block-diagram)
