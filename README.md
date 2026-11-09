@@ -33,6 +33,7 @@ Table 0 – Document version history <br>
 |A	     |2026-10-13 |Blaze Sanders |Initial document with skeleton based on Table of Contents                          |
 |B       |2026-10-30 |Blaze Sanders |First public open source version with new Sol-X assets and Swift code              |
 |C       |2026-11-08 |Meta Muse     |Added SOFT-006 to SOFT-025 on AI-Requirements branch merged to main by Blaze S     |
+|D       |2026-11-09 |Blaze Sanders |Rewrote ELEC-001 power limits (5 W solo / 7 W multiplayer, estimates to confirm) and added ELEC-002–ELEC-011 on the AI-Electrical-Requirements branch |
 
 <br><br>  
 
@@ -105,7 +106,27 @@ TODO
 Functional requirements define observable and measurable behavior expected from the Engineering Development Rack. Every functional requirement should be objectively testable and include a method of validation, acceptance criteria, and traceability to supporting test documentation when applicable. Whenever possible, requirements shall be written to support automated verification and long-term regression testing.
 
 ### 3.1	Electrical Requirements (ELEC-###)
-ELEC-001[Power]{Blaze S}: Astroship shall draw less than TODO Watts (W) during solo off line play and less than TODO*2 Watts (W) during local or online multiplayer play.
+ELEC-001[Power]{Blaze S}: Astroship shall draw less than 5 Watts (W) total device power during solo off line play and less than 7 Watts (W) during local or online multiplayer play, measured on an iPhone target (MECH-001) at 50% display brightness using Xcode Instruments Energy Log. The 5 W and 7 W limits are initial estimates from published third-party measurements of heavier 3D games on iPhone 15-17 Pro Max (4-6 W) and shall be confirmed or corrected by the measurement in ELEC-002 before the v2026.0 TestFlight.
+
+ELEC-002[Testing]{Blaze S}: The power limits in ELEC-001 shall be measured on each iPhone target device (MECH-001) using Xcode Instruments Energy Log over a full 30-minute match, before the v2026.0 TestFlight on Dec 12, 2026. If a measured value differs from the ELEC-001 estimate, the measured value shall replace it.
+
+ELEC-003[Power]{Blaze S}: Astroship v2026.0 shall not hold the cellular or Wi-Fi radio active during local solo play. The radio shall only be used for online play (SOFT-003, 0.5 Mbps) and Game Center sign-in (SYSA-004).
+
+ELEC-004[Power]{Blaze S}: Astroship v2026.0 on iPhone Duo shall drive both displays only during active gameplay (fleet pane and hunt pane). Menus, the lobby, and settings shall use a single display to reduce power draw.
+
+ELEC-005[Power]{Blaze S}: Astroship v2026.0 starry backgrounds and UI shall use predominantly dark pixels to reduce OLED display power on iPhone targets (MECH-001).
+
+ELEC-006[Performance]{Blaze S}: Astroship v2026.0 shall keep sustained processor and graphics load within the thermal envelope of the target devices (MECH-001), so a full match completes without forced performance reduction or thermal shutdown.
+
+ELEC-007[UX]{Blaze S}: Astroship v2026.1 shall remain fully playable by finger touch when the Apple Pencil (USB-C) is not connected or its battery is depleted, and shall not require the Pencil to be charging during play.
+
+ELEC-008[Power]{Blaze S}: Astroship v2026.0 on mains-powered targets (4K Apple TV, Mac running macOS 27 or higher) shall run on mains power and shall not require battery-backed operation; no battery power budget applies to those targets.
+
+ELEC-009[Power]{Blaze S}: Astroship v2028.0 backend power is the hosting provider's responsibility: the SYSA-005 backend shall run on a 32 GB RAM Linux Virtual Private Server (VPS), so Astroship shall specify only the virtual machine and no physical rack hardware (no quantities, make, model, or serial number).
+
+ELEC-010[UX]{Blaze S}: Astroship v2026.0 shall respect the device's system power management: it shall not prevent auto-lock or Low Power Mode, and a match in progress shall be preserved when the device locks or the app backgrounds so it can resume after charging.
+
+ELEC-011[Power]{Blaze S}: Astroship v2026.0 shall support play while the device charges over USB-C and shall not require a charger wattage beyond the device's own USB-C charging specification.
 
 ### 3.2	Mechanical Requirements (MECH-###)
 MECH-001[Performance]{Blaze S}: Astroship v2026.0 (or higher) shall be optimized run on any iPhone Duo, any 4K Apple TV, any Mac running MacOS 27 (or higher) or any iPhone (6.3 inches or larger).
