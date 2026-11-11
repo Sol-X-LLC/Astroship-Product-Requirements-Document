@@ -60,7 +60,7 @@ Where Domain will be one of the following: CERT (certification), ELEC (electrica
 
 Where Tag may be one of the following short (< 10 characters preferred) tags to make database searching and filtering easier: Power, Interface, Strength, Bandwidth, Quantity, Cost, Location, Schedule, UX (User Experience), UI (User Interface), Color, Material, Sourcing, Safety, Security, API (Application Programing Interface), Testing, Logs, QC (Quality Control), QA (Quality Assurance), OS (Operating System), OTA (Over The Air updates), Process, Performance, ADD_NEW_TAGS_HERE. <br>
 
-Where Author is a first name and first letter of the last name of the human that wrote the requirement. This wil not be used to blame the author, but instead be used to ask the author what their thinking and base assumptions where when writing the requirment. [SOURCE](https://www.goodreads.com/quotes/11819361-1-question-every-requirement-each-should-come-with-the-name)
+Where Author is a first name and first letter of the last name of the human that wrote the requirement. This will not be used to blame the author, but instead be used to ask the author what their thinking and base assumptions where when writing the requirement. [SOURCE](https://www.goodreads.com/quotes/11819361-1-question-every-requirement-each-should-come-with-the-name)
 
 All units shall be metric International System of Units (SI), with imperial units added only for convenience for weight. If a numerical value is not labeled, assume SI units are being used. <br>
 
