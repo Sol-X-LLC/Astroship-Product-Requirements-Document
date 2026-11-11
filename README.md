@@ -34,6 +34,7 @@ Table 0 – Document version history <br>
 |B       |2026-10-30 |Blaze Sanders |First public open source version with new Sol-X assets and Swift code              |
 |C       |2026-11-08 |Meta Muse     |Added SOFT-006 to SOFT-025 on AI-Requirements branch merged to main by Blaze S     |
 |D       |2026-11-09 |Blaze Sanders |Rewrote ELEC Requirements branch & added hyperlinks to Table of Contents entries   |
+|E       |2026-11-11 |Blaze Sanders |Rewrote INTE-001 and INTE-002 to be testable and added INTE-003–INTE-012 on the AI-Interface-Requirements branch |
 
 <br><br>  
 
@@ -199,9 +200,29 @@ SOFT-025[Cost]{Blaze S}: Astroship v2026.0 basic AI opponents (DumbScanAI and Cr
 
 <a id="sec-3-4-interface" name="sec-3-4-interface"></a>
 ### 3.4	Interface Requirements (INTE-###)
-INTE-001[UX]{Blaze S}: Astroship v2026.1 shall have adequate accessibility features to allow color blind and deaf people to play.  
+INTE-001[UX]{Blaze S}: Astroship v2026.1 shall let colorblind and deaf people play the full game. It shall be satisfied by INTE-003 (shape and label encoding), INTE-004 (VoiceOver labels), INTE-005 (visual-only alerts), and INTE-006 (Dynamic Type, Reduce Motion, high-contrast mode).
 
-INTE-002[UX]{Blaze S}: Astroship v2027.X (or higher) shall have adequate accessibility features to allow blind people to play using Siri AI.
+INTE-002[UX]{Blaze S}: Astroship v2027.X (or higher) shall let blind people play the full game using Siri AI voice commands, by satisfying INTE-009 (VoiceCommand seam) and INTE-010 (voice placement, shots, and results). The v2026.x releases shall only carry the VoiceCommand seam, not the voice interface itself.
+
+INTE-003[UX]{Blaze S}: Astroship v2026.1 shall distinguish every cell state by shape and text label, never by colour alone: fog "F", empty "·", ship as an outline shape, hit "X", miss "O", radar "R" (CellState).
+
+INTE-004[UX]{Blaze S}: Astroship v2026.1 shall give every grid cell a VoiceOver label naming its position and state (for example "Row 3, Column 4, hit"), and every interactive control a VoiceOver label and hint. VoiceOver label coverage for every CellState shall be tested under SYSA-001.
+
+INTE-005[UX]{Blaze S}: Astroship v2026.1 shall convey all game information visually: anything announced by audio shall also be shown on screen, with visual-only alerts and no audio-only cues, so deaf players miss nothing.
+
+INTE-006[OS]{Blaze S}: Astroship v2026.1 shall respect the system's Dynamic Type, Reduce Motion, and high-contrast mode settings.
+
+INTE-007[UI]{Blaze S}: Astroship v2026.1 shall accept finger touch and Apple Pencil (USB-C) interchangeably for placing ships and calling shots (MECH-002).
+
+INTE-008[UI]{Blaze S}: Astroship v2026.0 on iPhone Duo shall present two panes in landscape — one for my fleet, one for the hunt — with the SwiftUI grid laid over the 1.4:1 starry backgrounds, never baked into them.
+
+INTE-009[API]{Blaze S}: Astroship v2026.1 shall keep a VoiceCommand seam in the view model, so the Siri voice interface (INTE-010) can be added without rewriting BattleView.
+
+INTE-010[UX]{Blaze S}: Astroship v2027.X (or higher) shall let blind people place ships, call shots, and hear results (hit, miss, sunk, turn, winner) by voice using Siri AI.
+
+INTE-011[UX]{Blaze S}: Astroship v2026.0 shall sign the player in to Game Center through GameKit's in-app prompt, and the lobby shall show the authentication status with a Try again control when sign-in fails. Debug builds shall use a sandbox tester account, never a real Apple ID.
+
+INTE-012[UX]{Blaze S}: Astroship v2026.1 shall offer Find Opponent automatch in the lobby, disabled until the player is authenticated, and shall show the match status and handle disconnects.
 <br><br>
 
 
