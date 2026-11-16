@@ -3,65 +3,78 @@
 The average Kickstarter video is around two minutes, and a slow professional narration is ~125 words/min. Thus this script is ~250 words long, with a 6 second title card and 9 second end card.
 
 Blaze's Past Two Kickstarter Video:
+
 1. https://www.engineering.com/nasa-engineer-to-fire-tiny-death-star-into-space/
 2. https://www.kickstarter.com/projects/1035872323/spacevr-step-into-space/description
 
+## Script v2026.3
 
-## Script v2026.2
+Refined 2026-11-16 from the ATP ad read (`ATP_AstroshipAdRead.md`, committed to main the same day) and the actual Kickstarter tiers (creator-view screenshot, 2026-10-28, all tiers 0 backers, Late Pledges enabled).
 
-Runtime ~2:00 using ~235 spoken words at a slow professional read (~115–125 wpm)
+Runtime ~2:07–2:12 spoken using 265 spoken words at a slow professional read (~120–125 wpm)
+
 Read at a calm, unhurried pace. Leave a beat of silence at each section break.
+
 The final end card holds 9 seconds over music, no voiceover.
-{} = ON SCRREN TEXT 
-<br><br>
 
-[0:00–0:06] HOOK — Hero gameplay montage, music swells:
+{} = ON SCREEN TEXT
 
-"Hello World. Astroship was built for the iPhone Duo, it is a turn based local and online multiplayer three dimensional grid-based battle game for friends, family, and enemies." 
-<br><br>
+[0:00–0:12] HOOK — Hero gameplay montage, music swells:
 
-[0:06–0:41] THE GAME — Gameplay montage: placing fleets, calling shots, showing hits, deploying RADAR:
+"Hello World. Sol-X has launched Astroship on Kickstarter — a multiplayer, three-dimensional grid battle game for friends, family, and enemies, for the iPhone Duo."
 
-"You place your fleet on a 2D (or 3D using the Duo hinge) outer space, sand, or fire themed grid, call your shots with your finger or Apple Pencil (USB-C), and scan your opponent before they find you. Only after you have scanned your opponent's entire fleet do you decide if peace or war is the final outcome. Sharpen your aim in solo play — then take it online anywhere on or above Earth with a 0.5 Mbps of faster Wi-Fi, cellular or Starlink connection using Apple Game Center. Every solo victory lets you invite your friends to play the game and bragging rights when you are #1 on the online leaderboard. The $4 Astroship Pro Kickstarter reward unlocks multiplayer and every level FOREVER after the 100% free Apple TestFlight beta is over in February."
-<br><br>
+[0:12–0:54] THE GAME — Gameplay montage: placing fleets, calling shots, showing hits, deploying RADAR:
 
-[0:41–1:11] WHY IT'S DIFFERENT — Theme unlocks, accessibility settings, device lineup":
+"You place your fleet on a 2D — or 3D, using the Duo hinge — outer-space grid, call your shots with your finger or Apple Pencil, and scan your opponent's seven-ship fleet before they find you. Only then do you decide: peace, or war. Sharpen your aim in solo play, then go online anywhere on or above Earth — 0.5 Mbps or faster Wi-Fi, cellular, or Starlink — through Game Center. The $4 Pro reward unlocks multiplayer and every level forever, after the free beta ends in February."
 
-"Astroship is a fresh new battle  game, that unlocks new themes as you climb, from deep-space charts to desert battlegrounds to lava moons. Blind, Deaf, and Colorblind-friendly from day one. Levels with radar punishments keeps every match on a knife's edge. Our game is coming to iPhone hopefully Apple TV as a Kickstart stretch goal}, but was optimized for the iPhone Duo: one screen for your fleet, one for the hunt. And one rule that we will never break: no ads. Ever. Not on the grid, not anywhere."
-<br><br>
+[0:54–1:22] WHY IT'S DIFFERENT — Theme unlocks, accessibility settings, device lineup:
 
-[1:11–1:36] WHY KICKSTARTER — Roadmap graphic, beta footage:
+"Themes unlock as you climb. Blind, deaf, and colorblind-friendly from day one. And one rule we'll never break: no ads. Ever. Not on the grid, not anywhere. Stretch goal: iPhone 17 or newer and Apple TV, with sand and fire skins for the grid. Optimized for the iPhone Duo: one screen for your fleet, one for the hunt."
 
-"The TestFlight beta is live today just visit www.astroship.store/beta and fill out the form. We launch on the official app to the Apple App Store April 2027 approximently 8 weeks after the end of the Kickstarter. We're raising $42,069 to get there as quick as possible with more themes, more levels, and the polish a tiny independent team can only buy with your help. At official launch the game itself will be free. The $4.69 Astroship Pro in app purchase unlocks the app forever, with a two week trial period to see if you like it. 
+[1:22–1:50] WHY KICKSTARTER — Roadmap graphic, beta footage:
 
-Starting in Jan 2028 (12 months from today), we may switch to a $8 per year subscription so we can keep updating the game. Your feedback on this topic via a survey we send out on day 15 of the campaign will have a huge impact on the future of the game!"
-<br><br>
+"The TestFlight beta is live today at astroship.store/beta. We launch on the App Store in April 2027, eight weeks after the Kickstarter ends. We're raising $42,067 for more themes, more levels, and polish only a tiny independent team can buy with your help. At launch the game is free — Astroship Pro is $4.69, with a two-week trial."
 
-[1:36–1:51] THE ASK — Reward tiers on screen, end card with campaign URL:
+[1:50–2:08] THE ASK — Reward tiers on screen, end card with campaign URL:
 
-"Back the campaign and you're in at the ground floor with Astroship Pro offer code giving you every future theme, and your name in the credits. Help us finish the fleet — please back Astroship today."
-{$4 for Astroship Pro now, $4.69 per iPhone after the Kickstarter, $8/year after Jan 2028. Back today or pay five times more later}
-<br><br>
+"Back us today: $4 for Astroship Pro, $8 for the two-player game plus rocket skin pack, or $2 for your name in the game as a backer. Live long and prosper — help us finish the fleet."
 
-[1:51–2:00] END CARD - QR Code and www.astroship.store/kickstarter link to share on social media:
+{$4 for Astroship Pro, $8 for the two-player game plus rocket skin pack, $2 for your name in the game as a backer}
 
-"Please share this QR code and astroship.store/kickstarter link with everyone you plan to beat in Astroship"
-<br><br>
+[2:08–2:17] END CARD — QR Code and www.astroship.store/kickstarter link to share on social media:
 
+{Please share this QR code and astroship.store/kickstarter link with everyone you plan to beat in Astroship}
 
-## Key points to hit 
+## Key points to hit
 
 1. **ONE-LINE PITCH** — genre + core fantasy, ~12 words
 2. **CORE LOOP** — what the player actually does minute to minute
-3. **STANDOUT FEATURE** — the headline system
-4. **THE THING NO OTHER GAME DOES** — the differentiator
-5. **LAUNCH LINE** — platform(s) + date
+3. **STANDOUT FEATURE** — the headline system: scan the whole seven-ship fleet, then choose peace or war
+4. **THE THING NO OTHER GAME DOES** — the differentiator: 3D grid on the Duo hinge, blind / deaf / colorblind-friendly from day one, no ads ever
+5. **LAUNCH LINE** — platform(s) + date: iPhone Duo, App Store April 2027; iPhone 17 or newer and Apple TV as a stretch goal
 6. **TEAM / TIMEFRAME / BY HAND** — who's making it, how long, what makes it crafted
-7. **WHAT THE $42K FUNDS** — 2–3 specific things the money buys
-8. **SIGNATURE REWARD** — the headline backer perk
+7. **WHAT THE $42,067 FUNDS** — 2–3 specific things the money buys: more themes, more levels, polish
+8. **SIGNATURE REWARD** — the headline backer perk: $4 Astroship Pro
+
+## What changed from v2026.2, and why
+
+- **Imported from the ATP ad read:** the "Hello World" / Sol-X launch hook, the scan-the-entire-seven-ship-fleet then choose peace or war mechanic (Star Trek style), 0.5 Mbps or faster Wi-Fi / cellular / Starlink anywhere on or above Earth via Game Center, blind / deaf / colorblind-friendly from day one, iPhone 17 or newer and Apple TV as a stretch goal with sand and fire skins, "Live long and prosper," the $42,067 goal, the April 2027 launch about eight weeks after the Kickstarter ends, and $4.69 Pro at launch with a two-week trial.
+- **Removed — "every future theme":** no tier promises that. The ASK now uses only the actual tiers: $4 Pro, $8 two-player game plus rocket skin pack, $2 backer credit.
+- **Removed — "$8/year after Jan 2028":** it conflicts with term sheet V5.2 ($4.69/year from the first anniversary for new players). Replaced with the ad read's $4.69 Pro at launch, with a two-week trial.
+- **Removed — "Back today or pay five times more later":** the math does not hold ($4 vs $4.69 is not 5x).
+- **Kept from v2026.2:** solo play, themes unlocking as you climb, the Duo two-screen line ("one screen for your fleet, one for the hunt"), and the no-ads rule.
+- **Fixed typos:** "approximently" / "ON SCRREN" / "0.5 Mbps of faster" corrected.
+
+## Verify before recording
+
+- **$42,067 goal** — from the ATP ad read just committed. v2026.2 said $42,069, a $2 difference. Confirm which figure is the live campaign goal before locking.
+- **April 2027 launch, about eight weeks after the Kickstarter ends** — from the ad read. That implies the Kickstarter ends around February 2027, which does not match the term sheet's campaign window of 14 Mar–30 Apr 2027 (that would put launch around June). Reconcile the campaign dates before locking.
+- **"TestFlight beta is live today" / "beta ends in February"** — from the ad read. Only say it if the build actually shipped; February is assumed to be February 2027. TestFlight is not promised as a reward anywhere in the script (Apple bars it for crowdfunding); the beta link is informational only.
+- **$4.69 Pro "unlocks forever"** — from the ad read. Term sheet V5.2 says a one-time $4.69 unlock for the first year from release, then new players subscribe at $4.69/year from the first anniversary, with purchased unlocks staying valid. Confirm the "forever" wording holds for Kickstarter backers and for post-launch buyers before recording.
+- **iPhone 17 or newer and Apple TV stretch goal** — from the ad read. Confirm the scope (non-Duo iPhone support, Apple TV) and that sand and fire skins are tied to that stretch goal, not to the base theme unlocks.
+- **Reward tiers** — from the 2026-10-28 creator-view screenshot: $1 Thank You (Jan 2027); $2 Game Backer credit, company or personal (Feb 2027); $4 Astroship Pro Offer Code (Apr 2027); $8 2-player Game + Rocket Skin Package, 2x codes + 2x skins (Apr 2027); $16 Custom Apple Pencil Wrapper, Torpedo USB-C, certain countries (May 2027); $25 4x codes + 1x wrapper, worldwide (Apr 2027); $32 Las Vegas Launch Party at The STRAT (Feb 2027, limited quantity); $10,000 Angel Investor, STRAT party + code + wrapper + backer credit (Apr 2028). Note the $25 bundle's wrapper is dated Apr 2027 while the standalone $16 wrapper is May 2027, and the Feb 2027 Vegas party predates the Apr 2027 Pro codes.
 
 ## Timing notes
 
 - Keep ~2 seconds of silence at each section break — it makes the read feel confident, not rushed.
 - Do not promise TestFlight access as a reward (Apple bars it for crowdfunding); "exclusive backer offer code at launch" is the safe phrasing.
-
