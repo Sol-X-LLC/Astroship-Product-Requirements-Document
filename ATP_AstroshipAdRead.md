@@ -3,7 +3,7 @@ https://www.grammarly.com/word-counter
 
 General Talking Points:
 1. Sol-X has launched Astroship on Kickstarter
-2. A turn based local and online multiplayer two or three dimensional grid-based battle game
+2. A turn based local and online multiplayer battle game with a two (or three on iPhone Duo using hinge) dimensional grid
 3. The $4 Astroship Pro Kickstarter reward unlocks multiplayer and every level FOREVER, after the 100% free Apple TestFlight beta is over in February.
 4. The TestFlight beta is live today just visit www.astroship.store/beta and fill out the form. Email Blaze for website password before Jan 1, 2027
 5. We're raising $42,067 to get there as quick as possible with more themes, more levels, and the polish a tiny independent team can only buy with your help.

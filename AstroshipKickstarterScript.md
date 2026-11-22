@@ -7,6 +7,9 @@ Blaze's Past Two Kickstarter Video:
 1. https://www.engineering.com/nasa-engineer-to-fire-tiny-death-star-into-space/
 2. https://www.kickstarter.com/projects/1035872323/spacevr-step-into-space/description
 
+Kickstarter Marketing Companies:
+1. https://crowdfund-architects.lovable.app (BAD)
+
 ## Script v2026.3
 
 Refined 2026-11-16 from the ATP ad read (`ATP_AstroshipAdRead.md`, committed to main the same day) and the actual Kickstarter tiers (creator-view screenshot, 2026-10-28, all tiers 0 backers, Late Pledges enabled).
@@ -21,11 +24,11 @@ The final end card holds 9 seconds over music, no voiceover.
 
 [0:00–0:12] HOOK — Hero gameplay montage, music swells:
 
-"Hello World. Sol-X has launched Astroship on Kickstarter — a multiplayer, three-dimensional grid battle game for friends, family, and enemies, for the iPhone Duo."
+"Hello World. Sol-X has launched Astroship on Kickstarter — a multiplayer, two or three-dimensional grid battle game for friends, family, and enemies, for the iPhone Duo."
 
 [0:12–0:54] THE GAME — Gameplay montage: placing fleets, calling shots, showing hits, deploying RADAR:
 
-"You place your fleet on a 2D — or 3D, using the Duo hinge — outer-space grid, call your shots with your finger or Apple Pencil, and scan your opponent's seven-ship fleet before they find you. Only then do you decide: peace, or war. Sharpen your aim in solo play, then go online anywhere on or above Earth — 0.5 Mbps or faster Wi-Fi, cellular, or Starlink — through Game Center. The $4 Pro reward unlocks multiplayer and every level forever, after the free beta ends in February."
+"You place your fleet on a 2D (or 3D using the Duo hinge) outer space skinned grid, call your shots with your finger or Apple Pencil (USB-C), and scan your opponents seven ship fleet before they find you. Only after you have scanned your opponent's entire fleet do you decide if peace or war is the final outcome (Star Trek style). Play online anywhere on or above Earth with a 0.5 Mbps of faster Wi-Fi, cellular or Starlink connection using Apple Game Center for bragging rights on the online leaderboard. The $4 Astroship Pro Kickstarter reward unlocks multiplayer and every level FOREVER, after the 100% free Apple TestFlight beta is over in February."
 
 [0:54–1:22] WHY IT'S DIFFERENT — Theme unlocks, accessibility settings, device lineup:
 
@@ -55,15 +58,6 @@ The final end card holds 9 seconds over music, no voiceover.
 6. **TEAM / TIMEFRAME / BY HAND** — who's making it, how long, what makes it crafted
 7. **WHAT THE $42,067 FUNDS** — 2–3 specific things the money buys: more themes, more levels, polish
 8. **SIGNATURE REWARD** — the headline backer perk: $4 Astroship Pro
-
-## What changed from v2026.2, and why
-
-- **Imported from the ATP ad read:** the "Hello World" / Sol-X launch hook, the scan-the-entire-seven-ship-fleet then choose peace or war mechanic (Star Trek style), 0.5 Mbps or faster Wi-Fi / cellular / Starlink anywhere on or above Earth via Game Center, blind / deaf / colorblind-friendly from day one, iPhone 17 or newer and Apple TV as a stretch goal with sand and fire skins, "Live long and prosper," the $42,067 goal, the April 2027 launch about eight weeks after the Kickstarter ends, and $4.69 Pro at launch with a two-week trial.
-- **Removed — "every future theme":** no tier promises that. The ASK now uses only the actual tiers: $4 Pro, $8 two-player game plus rocket skin pack, $2 backer credit.
-- **Removed — "$8/year after Jan 2028":** it conflicts with term sheet V5.2 ($4.69/year from the first anniversary for new players). Replaced with the ad read's $4.69 Pro at launch, with a two-week trial.
-- **Removed — "Back today or pay five times more later":** the math does not hold ($4 vs $4.69 is not 5x).
-- **Kept from v2026.2:** solo play, themes unlocking as you climb, the Duo two-screen line ("one screen for your fleet, one for the hunt"), and the no-ads rule.
-- **Fixed typos:** "approximently" / "ON SCRREN" / "0.5 Mbps of faster" corrected.
 
 ## Verify before recording
 
