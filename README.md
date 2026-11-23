@@ -194,6 +194,9 @@ SOFT-023[UX]{Blaze S}: Astroship may support a 2D-only game mode for standard iP
 SOFT-024[UX]{Blaze S}: Astroship v2026.x AI shall not use the radar move until its semantics are defined (Phase 2 decision), and shall not fire at radar- or empty-revealed cells, which `GameState` rejects as already fired.
 
 SOFT-025[Cost]{Blaze S}: Astroship v2026.0 basic AI opponents (DumbScanAI and CrissCrossAI) shall be available in the free game and shall not be gated by Astroship Pro, which gates online multiplayer and levels only.
+
+SOFT-026[]{Blaze S}: Astroship shall use /// comments for public functions, /**/ comments for structs and classes, and // comments header comments at the top of a file and everywhere else
+
 <br><br>
 
 
