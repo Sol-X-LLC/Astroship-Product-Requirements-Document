@@ -2,7 +2,7 @@ Hello World,
 
 The team at Sol-X is made up of the four coolest Earthlings I know. Carey, Ahmed, Fahad, and my self (Blaze).
 
-Astroship was "Built with Love" and you can sign up for the iOS TestFlight Beta for free today at wwww.astroship.store/beta
+Astroship was "Built with Love" and you can sign up for the iOS TestFlight Beta for free today at www.astroship.store/beta
 
 Even if this Kickstarter fails this game will exist in the real world and never be locked down behind paid close source servers, since it can be played over a local network, using Apple's free Game Center servers, and will also have open source servers anyone can run on their mac or Linux machines at home usign Tailscale and other magic we are still working on.
 
