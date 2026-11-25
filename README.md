@@ -100,6 +100,8 @@ App Store Public Release:
 
 <a id="sec-2-1-hardware-block-diagram" name="sec-2-1-hardware-block-diagram"></a>
 ### 2.1	Hardware Block Diagram
+
+TODO Dark or Custom Yellow https://mermaid.js.org/config/theming.html
 ```mermaid
 flowchart TB
     Pencil["Apple Pencil<br/>Proposed stylus input"]
@@ -120,9 +122,9 @@ flowchart TB
     Pencil -.->|"If hardware supports Pencil"| Layout
 
     subgraph Modes["Proposed mode configurations"]
-        Laptop["Laptop L mode<br/>Upper display: targeting grid<br/>Lower display: fleet and controls"]
-        Tablet["iPad mode — unfolded<br/>Expanded board across both displays"]
-        Closed["Closed<br/>Displays off; game paused"]
+        Laptop[" Default Laptop L mode (swappable) <br/> Upper display: My Fleet Status <br/> Lower display: Targeting grid and UI Control"]
+        Tablet["iPad mode — unfolded <br/> Large targeting grid and UI control expanded board across both displays"]
+        Closed["Closed<br/> Just Targeting grid and UI Control"]
     end
 
     Layout --> Laptop
