@@ -1,9 +1,6 @@
 # Astroship
-An iPhone Duo multiplayer grid-based battle game for friends, family, and enemies. 
+An iPhone Duo turn based local and online multiplayer battle game with a three (two on standard iPhone) dimensional grid.
 <br><br>
-
-
-<img width="1024" height="1024" alt="astroship-app-icon" src="https://github.com/user-attachments/assets/b84363ac-5d18-49e3-89e1-95950c1d05e9" />
 
 ## Product Requirement Document Table of Contents:
 ### 1	[Document Purpose](#sec-1-document-purpose)
@@ -34,7 +31,8 @@ Table 0 – Document version history <br>
 |B       |2026-10-30 |Blaze Sanders |First public open source version with new Sol-X assets and Swift code              |
 |C       |2026-11-08 |Meta Muse     |Added SOFT-006 to SOFT-025 on AI-Requirements branch merged to main by Blaze S     |
 |D       |2026-11-09 |Blaze Sanders |Rewrote ELEC Requirements branch & added hyperlinks to Table of Contents entries   |
-|E       |2026-11-11 |Blaze Sanders |Rewrote INTE-001 and INTE-002 to be testable and added INTE-003–INTE-012 on the AI-Interface-Requirements branch |
+|E       |2026-11-11 |Meta Muse     |Rewrote INTE Requirements to be testable and added INTE-003 to INTE-012            |
+|F       |2026-11-24 |Blaze Sanders |Fully updated section 2, 2.1 & 2.2 with rough draft mermaid diagrams & intro text  |
 
 <br><br>  
 
@@ -44,7 +42,9 @@ Table 0 – Document version history <br>
 Table 1 – Local document acronyms and initialisms <br>
 |Term	   |Definition                                                                                                    |
 |--------|--------------------------------------------------------------------------------------------------------------|
-|SKU     | Stock Keeping Unit, See https://en.wikipedia.org/wiki/Stock_keeping_unit                                     |
+|2D / 3D |Two dimensional is flat plane / three dimensional as width, height, and depth                                 |
+|SKU     |Stock Keeping Unit, See https://en.wikipedia.org/wiki/Stock_keeping_unit                                      |
+
 
 <br><br>
 
@@ -82,29 +82,67 @@ Kickstarter Price: $4.00 per iPhone with local multiplayer (no online feature)
 Release Price: $0 with $4.69 upgrade to Astroship Pro for online multiplayer via a two week trial
 Jan 2028 Price: $8 per year 
 
-TestFlight Beta: Coming Dec 12, 2026
+### [Linear Project Management Timeline](https://linear.app/consulting-jobs/project/astroship-1bd763eb79b5/overview):
+
+TestFlight Beta:
 * v2026.0: Minimally Viable Product with basis graphic, audio, and local single player game play loop.
 * v2026.1: Online play enabled with Game Center integration and accessibility features 
 
-Kickstarter Campaign: Coming Jan 12, 2027
+Kickstarter Campaign:
 * ATP.fm podcast ad running Jan 14, 2027
 * Release daily post on Kickstarter for 30 days using prewritten blog
 * Release business model poll Jan 29 to get feedback on $8/year subscription 
   
-App Store Public Release: Coming April 14, 2026
+App Store Public Release:
 * v2027.X: TODO
 <br><br>
 
 
 <a id="sec-2-1-hardware-block-diagram" name="sec-2-1-hardware-block-diagram"></a>
 ### 2.1	Hardware Block Diagram
-TODO
+```mermaid
+flowchart TB
+    Pencil["Apple Pencil<br/>Proposed stylus input"]
+
+    subgraph Duo["iPhone Duo — dual-screen concept"]
+        ScreenA["Display A"]
+        ScreenB["Display B"]
+        Posture["Hinge / posture detection"]
+        Layout["Mode-aware interface"]
+        Game["Battleship clone<br/>Board, targeting and game state"]
+
+        ScreenA <-->|"Display / touch"| Layout
+        ScreenB <-->|"Display / touch"| Layout
+        Posture --> Layout
+        Layout <--> Game
+    end
+
+    Pencil -.->|"If hardware supports Pencil"| Layout
+
+    subgraph Modes["Proposed mode configurations"]
+        Laptop["Laptop L mode<br/>Upper display: targeting grid<br/>Lower display: fleet and controls"]
+        Tablet["iPad mode — unfolded<br/>Expanded board across both displays"]
+        Closed["Closed<br/>Displays off; game paused"]
+    end
+
+    Layout --> Laptop
+    Layout --> Tablet
+    Layout --> Closed
+
+    classDef hardware fill:#eef2ff,stroke:#818cf8
+    classDef software fill:#f0fdfa,stroke:#2dd4bf
+    classDef mode fill:#fff7ed,stroke:#fb923c
+    class Pencil,ScreenA,ScreenB,Posture hardware
+    class Layout,Game software
+    class Laptop,Tablet,Closed mode
+```
 <br><br>
 
 
 <a id="sec-2-2-principle-functionality" name="sec-2-2-principle-functionality"></a>
 ### 2.2	Principle Functionality Explained
-TODO
+You place your fleet on a 2D (or 3D using the Duo hinge) outer space skinned grid, call your shots with your finger or Apple Pencil (USB-C), and scan your opponents seven ship fleet before they find you. Only after you have scanned your opponent's entire fleet do you decide if peace or war is the final outcome (Star Trek style). Play online anywhere on or above Earth with a 0.5 Mbps of faster Wi-Fi, cellular or Starlink connection using Apple Game Center for bragging rights on the online leaderboard. 
+
 <br><br>
 
 
