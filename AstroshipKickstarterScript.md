@@ -48,6 +48,29 @@ The final end card holds 9 seconds over music, no voiceover.
 
 {Please share this QR code and astroship.store/kickstarter link with everyone you plan to beat in Astroship}
 
+## Ahmed Notes
+
+ASTROSHIP:  Kickstarter Script
+
+Everybodys got that one person they love to beat. A sibling. A best friend. Your partner.
+
+I am Blaze (ex-NASA and stuff) and these are my three friends(or earthlings): 
+Carey (work experience and stuff),
+Ahmed (work experience and stuff),
+and Fahad(work experience and stuff).
+We are building Astroship by hand for the iPhone Duo. It's Battleship, with a Star Trek twist.
+
+You each hide seven ships. Then you hunt. Open the Duo's hinge and the board goes 3D , one more place to hide. Play side by side, or across the world. Find their whole fleet, and you choose how it ends: peace, or war.
+
+No ads, ever. Open source, yours to keep. And built so colour-blind and deaf players are in on the fun too.
+
+At launch, Pro is $4.69 a year. Back today and it's four dollars for life(pay only once). Grab the two-player pack and bring your rival with you.
+
+We need $42,067 to finish the fleet.
+
+
+
+
 ## Key points to hit
 
 1. **ONE-LINE PITCH** — genre + core fantasy, ~12 words
