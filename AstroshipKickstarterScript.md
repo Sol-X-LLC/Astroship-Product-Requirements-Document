@@ -24,27 +24,29 @@ The final end card holds 9 seconds over music, no voiceover.
 
 [0:00–0:12] HOOK — Hero gameplay montage, music swells:
 
-"Hello World. Sol-X has launched Astroship on Kickstarter — a multiplayer, two or three-dimensional grid battle game for friends, family, and enemies, for the iPhone Duo. Everybody has that one person they love to beat, here is your chance!"
+"Hello World. Sol-X has launched Astroship on Kickstarter — a multiplayer, two or three-dimensional grid based battle game for friends, family, and enemies, for iPhone Duo. Everybody has that one person they love to beat, here is your chance! The 100% free Apple TestFlight beta is live now, but ends the same time at Kickstarter!"
+
+{www.astroshio.store/beta}
 
 [0:12–0:54] THE GAME — Gameplay montage: placing fleets, calling shots, showing hits, deploying RADAR:
 
-"You hide your seven ship fleet on a 2D (or 3D using the Duo hinge) outer space grid, call your shots with your finger or Apple Pencil (USB-C), and scan for your opponents fleet before they find you. Only after you have scanned your opponent's entire fleet do you decide if peace or war is the final outcome (Star Trek style). Play side by side, across the world, or above Earth with a 0.5 Mbps or faster connection using Apple Game Center for bragging rights on the online leaderboard. The $4 Astroship Pro Kickstarter reward unlocks multiplayer and every level FOREVER, after the 100% free Apple TestFlight beta is over in February."
+"You hide your seven ship fleet on a 2D outer space grid, call your shots with your finger or Apple Pencil, and scan for your opponents fleet before they find you. Only after you have scanned your opponent's entire fleet do you decide if peace or war is the final outcome (Star Trek style). Play side by side with a friend, across the world, or above Earth using Apple Game Center for bragging rights on the online leaderboard. The $4 Astroship Pro Kickstarter reward unlocks multiplayer and every level FOREVER."
 
-{Wi-Fi, cellular or Starlink }
+{3D using the Duo hinge, Apple Pencil USB-C only Wi-Fi, cellular or Starlink}
 
 [0:54–1:22] WHY IT'S DIFFERENT — Theme unlocks, accessibility settings, device lineup:
 
-"The one rule we'll never break: no ads. Ever. Not on the grid, not anywhere. The backend servers will also be 100% open source forever, yours to keep use even if Sol-X goes out of business. We built Astroship to be accessible to colour-blind and deaf players from day one, because it make the gam better for everyone.
+"The one rule we'll never break: no ads. Ever. Not on the grid, not anywhere. The backend servers will also be 100% open source forever, yours to keep and use even if Sol-X goes out of business. We built Astroship to be accessible to colour-blind and deaf players from day one, because it make the game better for everyone.
 
 [1:22–1:50] WHY KICKSTARTER — Roadmap graphic, beta footage:
 
-"Stretch goal: iPhone 17 or newer and Apple TV, with sand and fire skins for the grid. Optimized for the iPhone Duo: one screen for your fleet, one for the hunt. The TestFlight beta is live today at astroship.store/beta. We launch on the App Store in April 2027, eight weeks after the Kickstarter ends. We're raising $42,067 for more themes, more levels, and polish only a tiny independent team can buy with your help. At launch the game is free — Astroship Pro is $4.69, with a two-week trial."
+"Stretch goal: iPhone 17 or newer and Apple TV, with sand and fire skins for the grid. Optimized for the iPhone Duo: one screen for your fleet, one for the hunt. We launch on the App Store in April 2027, eight weeks after the Kickstarter ends. We're raising $42,067 to enable this tiny independent team to polish the game with more themes, more levels, and whimsy."
 
 [1:50–2:08] THE ASK — Reward tiers on screen, end card with campaign URL:
 
-"Back us today: $4 for Astroship Pro, $8 for the two-player game plus rocket skin pack, or $2 for your name in the game as a backer. Live long and prosper — help us finish the fleet."
+"Back us today at $4 for Astroship Pro. After the official launch in May 2027 Astroship Pro is $4.69, with a two-week free trial. Live long and prosper — help us finish the fleet."
 
-{We need $42,067: $4 for Astroship Pro, $8 for the two-player game plus rocket skin pack, $2 for your name in the game as a backer}
+{$4 for Astroship Pro, $8 for two Astroship Pro iOS offer codes, and $2 for your name in the game as a backer}
 
 [2:08–2:17] END CARD — QR Code and www.astroship.store/kickstarter link to share on social media:
 
